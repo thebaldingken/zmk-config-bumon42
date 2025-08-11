@@ -9,7 +9,7 @@ readable layout and keymap definitions for use with @nickcoutsos' [keymap-editor
 
 * Navigate to the [keymap-editor](https://nickcoutsos.github.io/keymap-editor/) web app.
 * In the `Source` drop-down menu, select GitHub.
-* For the repository, input this repository's location: `DAydDaY/zmk-config-Bumon42`
+* For the repository, input this repository's location: `thebaldingken/zmk-config-Bumon42`
 * For the branch, select `main`.
 * Modify the keymap as desired.
   * Refer to the [zmk documentation](https://zmk.dev/docs) for a description of the various [behaviours](https://zmk.dev/docs/behaviors/key-press) and [codes](https://zmk.dev/docs/codes).
