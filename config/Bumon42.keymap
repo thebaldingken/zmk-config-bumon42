@@ -26,7 +26,7 @@
 &kp LCTRL     &kp LGUI  &kp LALT  &kp SPACE  &lt 2 SPACE  &mo 4  &kp DELETE  &kp PRINTSCREEN
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PG_UP>;
+            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         game {
@@ -37,7 +37,7 @@
 &kp LCTRL   &none  &kp LALT  &kp SPACE  &lt 2 SPACE  &to 0  &kp DELETE  &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         numsym {
@@ -48,7 +48,7 @@
 &none      &none         &none         &kp SPACE     &none         &none         &none              &kp C_MUTE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         dirrgb {
@@ -59,7 +59,7 @@
 &none  &none            &none            &none            &none            &none            &none        &rgb_ug RGB_TOG
             >;
 
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
         };
 
         function {
@@ -70,7 +70,7 @@
 &none              &to 1         &none         &none         &none         &none         &none   &studio_unlock
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
         };
     };
 };
